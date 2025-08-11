@@ -17,7 +17,7 @@ nav{
     color: #4E47FF;
     justify-content: space-between;
     align-items: center;
-    margin: 50px 200px;
+    margin: 0px 200px;
     
 }
 .nav-title{
@@ -76,16 +76,55 @@ nav{
 
 .first-attempt{
     background-image:url('../pictures/Hero-bg.png');
-    
-    
 }
 .picture{
     height: 280px;
+}
+
+/* section 1 */
+
+.section-1{
     
+    margin: 100px 150px;
 }
 
 
+.banner{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+.banner-greeting{
+    font-weight: bold;
+    font-size: 42px;
+    color: #252432;
+    width: 517px;
+    height: 50px;
+}
+.description{
+    font-size: 24px;
+    font-weight: lighter;
+    width: 517px;
+    height: 60px;
+    font-family: 
+}
+.btn-3{
+    background-color: #4E47FF;
+    width: 230px; 
+    height: 50px;
+    color: white;
+    border-radius: 10px;
+    font-size: 16px;
+    border: none;
     
+}
+.pic{
+    border-radius: 48px;
+}
+
     
 
 
