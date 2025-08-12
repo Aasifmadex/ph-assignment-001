@@ -81,6 +81,9 @@ nav{
     height: 280px;
 }
 
+
+
+
 /* section 1 */
 
 .section-1{
@@ -124,11 +127,77 @@ nav{
 .pic{
     border-radius: 48px;
 }
+ 
+/* section-2 */
+.section-part{
+    max-width: 1240px;
+    margin: 0 auto;
+}
 
+ .user-info{
+    background-color: #4d47ff25;
+    text-align: center;
+    border-radius: 10px;
+ }   
+.user-level{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 135px 140px;
+    padding-bottom: 0%;
+
+}
+
+.user-status{
+    font-weight: bold;
+    font-size: 80px;
     
+}
 
+.users-title{
+    font-weight: bold;
+    font-size: 38px;
+    padding-top: 60px;
+}
+.user-post{
+    padding-top: 0px;
+}
+/* part/card */
 
+.date-design{
+    color: #B3B3B3;
+    
+}
+.reviewer-name{
+    color: #757575;
+}
+.reviewer-img{
+   border-radius: 50%;
+}
+.reviewer-design{
+    display: flex;
+    gap: 10px;
+    
+    
+}
+.reviewer-des{
+    color: #1E1E1E;
+   
+}
+.reviewer-head{
+    font-weight: bold;
+    font-size: 23px;
+    
+    
+}
 
-
-
-
+.card-design{
+    background-color: #FFFFFF;
+    width: 360px;
+    height: 245px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 0px black;
+    padding: 20px 24px 0px;
+}
+.cards{
+    display: flex;
+}
